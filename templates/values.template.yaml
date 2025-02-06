@@ -1,0 +1,7 @@
+replicaCount: 1
+# This sets the container image more information can be found here: https://kubernetes.io/docs/concepts/containers/images/
+image:
+  repository: ccr.civiceye.com/civiceye/demo_image
+  sha256: 123272180deb9f194283a5cc29de6cc3691c9441ea2c2a47b2f0ceec6cd92521
+customer: "customer"
+hostname: "customer-demo.test-civiceye.com"
